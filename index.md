@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# Cabbagetown/Reynoldstown Transportation Committee
 
-You can use the [editor on GitHub](https://github.com/cr-transportation/site/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+> Committee to address issues of transportation and mobility in the Cabbagetown & Reynoldstown neighborhoods of Atlanta, GA.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 2017 Transportation Plan
 
-### Markdown
+We are working together to produce a joint neighborhood transportation plan.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We've contracted with [UrbanTrans](http://urbantrans.com/) to engage with the community for input and incorporate relevant details from plans such as the Atlanta transportation plan, the Beltline Master Plan (sub-area 4 overlay), Imagine Memorial and Renew Atlanta initiatives, [Livable Centers Initiative](http://www.atlantaregional.com/land-use/livable-centers-initiative).
 
-```markdown
-Syntax highlighted code block
+Learn more about this at at the next Reynoldstown Community Improvement League meeting: [Monday, May 8th](https://www.facebook.com/events/1902220833393420/).
 
-# Header 1
-## Header 2
-### Header 3
+### Survey
 
-- Bulleted
-- List
+We will be [surveying](survey.html) residents and visitors to help us identify and understand the needs, concerns, and ideas of our neighborhoods.
 
-1. Numbered
-2. List
+Details to follow!
 
-**Bold** and _Italic_ and `Code` text
+### Workshop
 
-[Link](url) and ![Image](src)
-```
+Details to follow!
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Transportation Resources
 
-### Jekyll Themes
+We're working to put together resources for residents and visitors. Details to follow.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cr-transportation/site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Contact
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The committee can be reached at crtransportation@googlegroups.com (you must be a member to post).
