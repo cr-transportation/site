@@ -12,7 +12,7 @@ Learn more about this at at the next Reynoldstown Community Improvement League m
 
 ### Survey
 
-We will be [surveying](survey.html) residents and visitors to help us identify and understand the needs, concerns, and ideas of our neighborhoods.
+We will be [surveying](survey) residents and visitors to help us identify and understand the needs, concerns, and ideas of our neighborhoods.
 
 Details to follow!
 
