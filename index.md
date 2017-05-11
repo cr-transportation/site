@@ -20,7 +20,15 @@ Details to follow!
 
 ### Workshop
 
-Details to follow!
+There will be a morning and evening session on Wednesday, June 07.
+
+*Morning Session*
+- Time: 7:30 to 9:30 AM
+- Location: TBD
+  
+*Evening Session*
+- Time: 6:00 to 9:00 PM
+- Location: Trees Atlanta, 225 Chester Ave SE, Atlanta, GA 30316
 
 ## Transportation Resources
 
