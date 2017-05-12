@@ -10,8 +10,6 @@ We are working together to produce a joint neighborhood transportation plan.
 
 We've contracted with [UrbanTrans](http://urbantrans.com/) to engage with the community for input and incorporate relevant details from plans such as the Atlanta transportation plan, the Beltline Master Plan (sub-area 4 overlay), Imagine Memorial and Renew Atlanta initiatives, [Livable Centers Initiative](http://www.atlantaregional.com/land-use/livable-centers-initiative).
 
-Learn more about this at at the next Reynoldstown Community Improvement League meeting: [Monday, May 8th](https://www.facebook.com/events/1902220833393420/).
-
 ### Survey
 
 We will be [surveying](survey) residents and visitors to help us identify and understand the needs, concerns, and ideas of our neighborhoods.
