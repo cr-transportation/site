@@ -24,6 +24,4 @@ There will be a morning and evening session on Wednesday, June 07.
 
 ## Sign up for updates
 
-Stay in the loop:
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8bfZF24_mFvWOiWk5zxmumORkYatJq4rJmLTljD29QSIVRw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+Stay in the loop by [signing up for updates](https://goo.gl/forms/6fgQH59MbVoXoAAk2).
