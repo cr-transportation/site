@@ -22,7 +22,7 @@ There will be a morning and evening session on Wednesday, June 07.
 
 *Morning Session*
 - Time: 7:30 to 9:30 AM
-- Location: TBD
+- Location: Cabbagetown Park, (Corner of Tye St. and Kirkwood Ave.)
   
 *Evening Session*
 - Time: 6:00 to 9:00 PM
