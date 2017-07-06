@@ -12,13 +12,6 @@ We hold monthly meetings:
 **Where:** [Cabbagetown Community Center](http://www.cabbagetowninitiative.org/community-center/), 177 Estoria St SE, Atlanta, GA 30316
 
 
-## 2017 Transportation Plan
-
-We are working together to produce a joint neighborhood transportation plan.
-
-We've contracted with [UrbanTrans](http://urbantrans.com/) to engage with the community for input and incorporate relevant details from plans such as the Atlanta transportation plan, the Beltline Master Plan (sub-area 4 overlay), Imagine Memorial and Renew Atlanta initiatives, [Livable Centers Initiative](http://www.atlantaregional.com/land-use/livable-centers-initiative).
-
-
 ## Resources
 
 We're working to put together resources for residents and visitors. Details to follow.
