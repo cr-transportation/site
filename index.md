@@ -11,8 +11,6 @@ We hold monthly meetings:
 
 **Where:** [Cabbagetown Community Center](http://www.cabbagetowninitiative.org/community-center/), 177 Estoria St SE, Atlanta, GA 30316
 
-[Meeting Notes can be found here](meetings)
-
 
 ## 2017 Transportation Plan
 
