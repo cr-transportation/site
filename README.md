@@ -9,4 +9,4 @@
 2. create a link to the article in `news/index.md` - `* YYYY-MM-DD [Article Title](YYYY-MM-DD-title_separated_by_underscores)`
 
 ## Host the website locally with Docker:
-run --rm --label=jekyll --volume=$PWD:/srv/jekyll  -it -p 4000:4000 jekyll/jekyll:pages jekyll serve
+docker run --rm --label=jekyll --volume=$PWD:/srv/jekyll  -it -p 4000:4000 jekyll/jekyll:pages jekyll serve

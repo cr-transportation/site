@@ -1,0 +1,405 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head><base href="https://docs.google.com/forms/d/e/1FAIpQLSc2zftotT1UC0H4hM7XfJ_x3NjhnmMwIETvzmru7H2CqXUsOQ/viewform">
+<link rel="shortcut icon" href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png" type="image/x-icon">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=10; chrome=1;">
+<meta name="fragment" content="!">
+<meta name="viewport" content="width=device-width">
+<base target="_blank">
+<title>Cabbagetown Streets Survey</title>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,700">
+
+<link href='/static/forms/client/css/3802382813-formview_st_ltr.css' type='text/css' rel='stylesheet'>
+
+
+<link href='/static/forms/client/css/3883145868-printable_formview_st_ltr.css' type='text/css' rel='stylesheet'>
+
+<link href='/static/forms/client/css/3145455273-mobile_formview_st_ltr.css' type='text/css' rel='stylesheet' media='screen and (max-device-width: 721px)'>
+
+<script type="text/javascript">
+          /**
+ * @license
+ *
+ * H5F 1.1.1
+ * See https://github.com/ryanseddon/H5F/ for details.
+ *
+ * Copyright (c) 2013 Ryan Seddon
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ */
+(function(e,t){"function"==typeof define&&define.amd?define(t):"object"==typeof module&&module.exports?module.exports=t():e.H5F=t()})(this,function(){var e,t,a,i,n,r,l,s,o,u,d,c,v,p,f,m,b,h,g,y,w,C,N,A,E,$,x=document,k=x.createElement("input"),q=/^[a-zA-Z0-9.!#$%&'*+-\/=?\^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,M=/[a-z][\-\.+a-z]*:\/\//i,L=/^(input|select|textarea)$/i;return r=function(e,t){var a=!e.nodeType||!1,i={validClass:"valid",invalidClass:"error",requiredClass:"required",placeholderClass:"placeholder",onSubmit:Function.prototype,onInvalid:Function.prototype};if("object"==typeof t)for(var r in i)t[r]===void 0&&(t[r]=i[r]);if(n=t||i,a)for(var s=0,o=e.length;o>s;s++)l(e[s]);else l(e)},l=function(a){var i,r=a.elements,l=r.length,c=!!a.attributes.novalidate;if(g(a,"invalid",o,!0),g(a,"blur",o,!0),g(a,"input",o,!0),g(a,"keyup",o,!0),g(a,"focus",o,!0),g(a,"change",o,!0),g(a,"click",u,!0),g(a,"submit",function(i){return e=!0,t||c||a.checkValidity()?(n.onSubmit.call(a,i),void 0):(w(i),void 0)},!1),!v())for(a.checkValidity=function(){return d(a)};l--;)i=!!r[l].attributes.required,"fieldset"!==r[l].nodeName.toLowerCase()&&s(r[l])},s=function(e){var t=e,a=h(t),n={type:t.getAttribute("type"),pattern:t.getAttribute("pattern"),placeholder:t.getAttribute("placeholder")},r=/^(email|url)$/i,l=/^(input|keyup)$/i,s=r.test(n.type)?n.type:n.pattern?n.pattern:!1,o=p(t,s),u=m(t,"step"),v=m(t,"min"),b=m(t,"max"),g=!(""===t.validationMessage||void 0===t.validationMessage);t.checkValidity=function(){return d.call(this,t)},t.setCustomValidity=function(e){c.call(t,e)},t.validity={valueMissing:a,patternMismatch:o,rangeUnderflow:v,rangeOverflow:b,stepMismatch:u,customError:g,valid:!(a||o||u||v||b||g)},n.placeholder&&!l.test(i)&&f(t)},o=function(e){var t=C(e)||e,a=/^(input|keyup|focusin|focus|change)$/i,r=/^(submit|image|button|reset)$/i,l=/^(checkbox|radio)$/i,u=!0;!L.test(t.nodeName)||r.test(t.type)||r.test(t.nodeName)||(i=e.type,v()||s(t),t.validity.valid&&(""!==t.value||l.test(t.type))||t.value!==t.getAttribute("placeholder")&&t.validity.valid?(A(t,[n.invalidClass,n.requiredClass]),N(t,n.validClass)):a.test(i)?t.validity.valueMissing&&A(t,[n.requiredClass,n.invalidClass,n.validClass]):t.validity.valueMissing?(A(t,[n.invalidClass,n.validClass]),N(t,n.requiredClass)):t.validity.valid||(A(t,[n.validClass,n.requiredClass]),N(t,n.invalidClass)),"input"===i&&u&&(y(t.form,"keyup",o,!0),u=!1))},d=function(t){var a,i,r,l,s,u=!1;if("form"===t.nodeName.toLowerCase()){a=t.elements;for(var d=0,c=a.length;c>d;d++)i=a[d],r=!!i.attributes.disabled,l=!!i.attributes.required,s=!!i.attributes.pattern,"fieldset"!==i.nodeName.toLowerCase()&&!r&&(l||s&&l)&&(o(i),i.validity.valid||u||(e&&i.focus(),u=!0,n.onInvalid.call(t,i)));return!u}return o(t),t.validity.valid},c=function(e){var t=this;t.validationMessage=e},u=function(e){var a=C(e);a.attributes.formnovalidate&&"submit"===a.type&&(t=!0)},v=function(){return E(k,"validity")&&E(k,"checkValidity")},p=function(e,t){if("email"===t)return!q.test(e.value);if("url"===t)return!M.test(e.value);if(t){var i=e.getAttribute("placeholder"),n=e.value;return a=RegExp("^(?:"+t+")$"),n===i?!1:""===n?!1:!a.test(e.value)}return!1},f=function(e){var t={placeholder:e.getAttribute("placeholder")},a=/^(focus|focusin|submit)$/i,r=/^(input|textarea)$/i,l=/^password$/i,s=!!("placeholder"in k);s||!r.test(e.nodeName)||l.test(e.type)||(""!==e.value||a.test(i)?e.value===t.placeholder&&a.test(i)&&(e.value="",A(e,n.placeholderClass)):(e.value=t.placeholder,g(e.form,"submit",function(){i="submit",f(e)},!0),N(e,n.placeholderClass)))},m=function(e,t){var a=parseInt(e.getAttribute("min"),10)||0,i=parseInt(e.getAttribute("max"),10)||!1,n=parseInt(e.getAttribute("step"),10)||1,r=parseInt(e.value,10),l=(r-a)%n;return h(e)||isNaN(r)?"number"===e.getAttribute("type")?!0:!1:"step"===t?e.getAttribute("step")?0!==l:!1:"min"===t?e.getAttribute("min")?a>r:!1:"max"===t?e.getAttribute("max")?r>i:!1:void 0},b=function(e){var t=!!e.attributes.required;return t?h(e):!1},h=function(e){var t=e.getAttribute("placeholder"),a=/^(checkbox|radio)$/i,i=!!e.attributes.required;return!(!i||""!==e.value&&e.value!==t&&(!a.test(e.type)||$(e)))},g=function(e,t,a,i){E(window,"addEventListener")?e.addEventListener(t,a,i):E(window,"attachEvent")&&window.event!==void 0&&("blur"===t?t="focusout":"focus"===t&&(t="focusin"),e.attachEvent("on"+t,a))},y=function(e,t,a,i){E(window,"removeEventListener")?e.removeEventListener(t,a,i):E(window,"detachEvent")&&window.event!==void 0&&e.detachEvent("on"+t,a)},w=function(e){e=e||window.event,e.stopPropagation&&e.preventDefault?(e.stopPropagation(),e.preventDefault()):(e.cancelBubble=!0,e.returnValue=!1)},C=function(e){return e=e||window.event,e.target||e.srcElement},N=function(e,t){var a;e.className?(a=RegExp("(^|\\s)"+t+"(\\s|$)"),a.test(e.className)||(e.className+=" "+t)):e.className=t},A=function(e,t){var a,i,n="object"==typeof t?t.length:1,r=n;if(e.className)if(e.className===t)e.className="";else for(;n--;)a=RegExp("(^|\\s)"+(r>1?t[n]:t)+"(\\s|$)"),i=e.className.match(a),i&&3===i.length&&(e.className=e.className.replace(a,i[1]&&i[2]?" ":""))},E=function(e,t){var a=typeof e[t],i=RegExp("^function|object$","i");return!!(i.test(a)&&e[t]||"unknown"===a)},$=function(e){for(var t=document.getElementsByName(e.name),a=0;t.length>a;a++)if(t[a].checked)return!0;return!1},{setup:r}});
+
+        </script>
+<link rel="alternate" type="text/xml+oembed" href="https://docs.google.com/forms/d/1mFnCjL89jhn9iyUqPawo_CSsEFgg451N2cXplMOE3nY/oembed?url=https://docs.google.com/forms/d/e/1FAIpQLSc2zftotT1UC0H4hM7XfJ_x3NjhnmMwIETvzmru7H2CqXUsOQ/viewform&amp;format=xml">
+
+</head>
+<body dir="ltr" class="ss-base-body"><div itemscope itemtype="http://schema.org/CreativeWork/FormObject"><meta itemprop="name" content="Cabbagetown Streets Survey">
+<meta itemprop="description" content="This survey, conducted by the Cabbagetown Transportation Committee, aims to capture a snapshot of the neighborhood&#39;s and our neighbors&#39; ideas about traffic, parking, accessibility, and mobility, in and through Cabbagetown.  
+
+Thank you for taking the time to provide your feedback. Your responses here will inform the future efforts of the CNIA Transportation Committee, which strives to represent the interests of the community we are proud to represent.  
+
+">
+
+<meta itemprop="url" content="https://docs.google.com/forms/d/e/1FAIpQLSc2zftotT1UC0H4hM7XfJ_x3NjhnmMwIETvzmru7H2CqXUsOQ/viewform">
+<meta itemprop="embedUrl" content="https://docs.google.com/forms/d/e/1FAIpQLSc2zftotT1UC0H4hM7XfJ_x3NjhnmMwIETvzmru7H2CqXUsOQ/viewform?embedded=true">
+<meta itemprop="faviconUrl" content="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png">
+
+
+
+
+<div class="ss-form-container"><div class="ss-header-image-container"><div class="ss-header-image-image"><div class="ss-header-image-sizer"></div></div></div>
+<div class="ss-top-of-page"><div class="ss-form-heading"><h1 class="ss-form-title" dir="ltr">Cabbagetown Streets Survey</h1>
+<div class="ss-form-desc ss-no-ignore-whitespace" dir="ltr">This survey, conducted by the Cabbagetown Transportation Committee, aims to capture a snapshot of the neighborhood&#39;s and our neighbors&#39; ideas about traffic, parking, accessibility, and mobility, in and through Cabbagetown.  <p>Thank you for taking the time to provide your feedback. Your responses here will inform the future efforts of the CNIA Transportation Committee, which strives to represent the interests of the community we are proud to represent.  <p></p></p></div>
+
+<div class="ss-required-asterisk" aria-hidden="true">* Required</div></div></div>
+<div class="ss-form"><form action="" method="GET" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0;">
+<div class="errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-embeddable-object-container"><div class="ss-form-entry">
+<h2 class="ss-q-title"></h2>
+<div style="text-align: left;"><img class="ss-image" title="" src="https://lh5.googleusercontent.com/eHhLYlw3_vBBa6l1LGkR-RPT86ef9Ge46wrVq463AqyzRQfFnHfc5IQO5fDRy3COCVWE_BmErQ" style="width: 702px;" alt="Captionless Image"></div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item ss-item-required ss-radio"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_676845140"><div class="ss-q-title">Tell us about yourself: where do you live?
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<ul class="ss-choices" role="radiogroup" aria-label="Tell us about yourself: where do you live?  "><li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.417502045" value="Cabbagetown" id="group_417502045_1" role="radio" class="ss-q-radio" aria-label="Cabbagetown" required="" aria-required="true"></span>
+<span class="ss-choice-label">Cabbagetown</span>
+<span class="ss-printable-navigation" dir="ltr">After the last question in this section, skip to question 3.</span></label></li> <li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.417502045" value="Reynoldstown" id="group_417502045_2" role="radio" class="ss-q-radio" aria-label="Reynoldstown" required="" aria-required="true"></span>
+<span class="ss-choice-label">Reynoldstown</span>
+<span class="ss-printable-navigation" dir="ltr">After the last question in this section, skip to question 5.</span></label></li> <li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.417502045" value="Grant Park" id="group_417502045_3" role="radio" class="ss-q-radio" aria-label="Grant Park" required="" aria-required="true"></span>
+<span class="ss-choice-label">Grant Park</span>
+<span class="ss-printable-navigation" dir="ltr">After the last question in this section, skip to question 5.</span></label></li> <li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.417502045" value="Lower/Old Fourth Ward" id="group_417502045_4" role="radio" class="ss-q-radio" aria-label="Lower/Old Fourth Ward" required="" aria-required="true"></span>
+<span class="ss-choice-label">Lower/Old Fourth Ward</span>
+<span class="ss-printable-navigation" dir="ltr">After the last question in this section, skip to question 5.</span></label></li> <li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.417502045" value="Inman Park" id="group_417502045_5" role="radio" class="ss-q-radio" aria-label="Inman Park" required="" aria-required="true"></span>
+<span class="ss-choice-label">Inman Park</span>
+<span class="ss-printable-navigation" dir="ltr">After the last question in this section, skip to question 5.</span></label></li> <li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.417502045" value="Edgewood / Kirkwood" id="group_417502045_6" role="radio" class="ss-q-radio" aria-label="Edgewood / Kirkwood" required="" aria-required="true"></span>
+<span class="ss-choice-label">Edgewood / Kirkwood</span>
+<span class="ss-printable-navigation" dir="ltr">After the last question in this section, skip to question 5.</span></label></li> <li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.417502045" value="I&#39;d prefer not to say (OTP, probably)" id="group_417502045_7" role="radio" class="ss-q-radio" aria-label="I&#39;d prefer not to say (OTP, probably)" required="" aria-required="true"></span>
+<span class="ss-choice-label">I&#39;d prefer not to say (OTP, probably)</span>
+<span class="ss-printable-navigation" dir="ltr"></span></label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.417502045" value="__other_option__" id="group_417502045_8" role="radio" class="ss-q-radio ss-q-other-toggle" required="" aria-required="true"></span>
+<span class="ss-choice-label">Other:</span></label>
+<span class="ss-q-other-container goog-inline-block"><input type="text" name="entry.417502045.other_option_response" value="" class="ss-q-other" id="entry_417502045_other_option_response" dir="auto" aria-label="Other"></span>
+<span class="ss-printable-navigation" dir="ltr">After the last question in this section, skip to question 5.</span></li></ul>
+<div class="error-message" id="676845140_errorMessage"></div>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-checkbox"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1648163160"><div class="ss-q-title">&quot;I ___ Cabbagetown&quot;
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">Are you a local resident, employee, or visitor? Choose all that apply.</div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Check all that apply.</div>
+<ul class="ss-choices" role="group" aria-label="&quot;I ___ Cabbagetown&quot; Are you a local resident, employee, or visitor? Choose all that apply. "><li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1315631606" value="live in" id="group_1315631606_1" role="checkbox" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">live in</span>
+</label></li> <li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1315631606" value="work in" id="group_1315631606_2" role="checkbox" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">work in</span>
+</label></li> <li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1315631606" value="visit businesses in" id="group_1315631606_3" role="checkbox" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">visit businesses in</span>
+</label></li> <li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1315631606" value="travel through" id="group_1315631606_4" role="checkbox" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">travel through</span>
+</label></li></ul>
+<div class="error-message" id="1648163160_errorMessage"></div>
+<div class="required-message">This is a required question</div></div></div></div> <div class="errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-page-break"><div class="ss-form-entry"><span class="ss-printable-navigation" dir="ltr"></span>
+<h2 class="ss-page-title">Cabbageheads Only - Residential Parking Zone</h2>
+<div class="ss-page-description ss-no-ignore-whitespace" dir="auto">Neighbors and visitors coming together in Cabbagetown is a great thing, but until Atlanta becomes a fully connected transit-filled metropolis, many of us need a place to park our cars on the street when we get home at night.  
+
+In order to implement a Residential Parking Zone, a *much* larger effort would be undertaken by neighbors and the city, and in order to begin, a petition signed by at least 70% of residents on any contiguous block (or blocks) must first be submitted to the city to initiate a comprehensive study.  
+
+If qualified, approved, and created, the zone would restrict parking by non-residents either completely or with a two-hour limit, for a twelve-hour period (such as 12 noon to 12 midnight).  Zones are patrolled and enforced by ParkAtlanta.
+
+Residents may purchase a permit costing $20/year to park a vehicle on the street in the zone. Residents without private off-street parking may purchase up to two permits, while residents who do have off-street parking may purchase one permit.  All residents may obtain, free of charge, up two &quot;visitors passes&quot; to be used by guests for up to 15 days. 
+
+You may read more about the process for creating and enforcing a residential parking zone here:  <a href="https://www.google.com/url?q=https://www.municode.com/library/ga/atlanta/codes/code_of_ordinances?nodeId%3DCOORATGEVOII_CH150TRVE_ARTIVSTSTPA_DIV4REPEPA&amp;sa=D&amp;ust=1473917344898000&amp;usg=AFQjCNGTfA2Amn-ltWEk0OqrW_VhCsSnpw">https://www.municode.com/library/ga/atlanta/codes/code_of_ordinances?nodeId=COORATGEVOII_CH150TRVE_ARTIVSTSTPA_DIV4REPEPA</a>  
+
+
+All that said, how supportive would you be of the following action?
+
+ 1=Least
+ 2=Less
+ 3=Neutral
+ 4=More
+ 5=Most</div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_2037401015"><div class="ss-q-title">Institute a Residential Parking Permit program
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<table border="0" cellpadding="5" cellspacing="0" id="entry_1376098927"><tr aria-hidden="true"><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1376098927_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1376098927_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1376098927_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1376098927_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1376098927_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr role="radiogroup" aria-label="Institute a Residential Parking Permit program  Select a value from a range of 1,Least, to 5,Most,."><td class="ss-scalerow ss-leftlabel"><div aria-hidden="true" class="aria-todo">Least</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1376098927" value="1" id="group_1376098927_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1376098927" value="2" id="group_1376098927_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1376098927" value="3" id="group_1376098927_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1376098927" value="4" id="group_1376098927_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1376098927" value="5" id="group_1376098927_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
+<td class="ss-scalerow ss-rightlabel" aria-hidden="true">Most</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-paragraph-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1781116000"><div class="ss-q-title">What comments do you have about Residential Parking Zones?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">If interested in implementing a zone on your block, please let us know the street you live on so we can follow-up!</div></label>
+
+<div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div>
+<div class="error-message" id="197800805_errorMessage"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-page-break"><div class="ss-form-entry">
+<h2 class="ss-page-title">Parking</h2>
+<div class="ss-page-description ss-no-ignore-whitespace" dir="auto">The following are some ideas on addressing parking in Cabbagetown.
+
+How supportive would you be of the following actions?
+
+ 1=Least
+ 2=Less
+ 3=Neutral
+ 4=More
+ 5=Most</div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_2056589546"><div class="ss-q-title">Denote commercial and/or short term loading zones
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">This may sacrifice general parking space for a more harmonious mixed-use on-street space.</div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<table border="0" cellpadding="5" cellspacing="0" id="entry_1597659560"><tr aria-hidden="true"><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1597659560_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1597659560_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1597659560_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1597659560_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1597659560_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr role="radiogroup" aria-label="Denote commercial and/or short term loading zones This may sacrifice general parking space for a more harmonious mixed-use on-street space. Select a value from a range of 1,Least, to 5,Most,."><td class="ss-scalerow ss-leftlabel"><div aria-hidden="true" class="aria-todo">Least</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1597659560" value="1" id="group_1597659560_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1597659560" value="2" id="group_1597659560_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1597659560" value="3" id="group_1597659560_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1597659560" value="4" id="group_1597659560_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1597659560" value="5" id="group_1597659560_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
+<td class="ss-scalerow ss-rightlabel" aria-hidden="true">Most</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_692542846"><div class="ss-q-title">$2 for self-parking at a Cabbagetown business
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">There isn&#39;t such an option now, but what if a neighborhood-scale development brings a large parking garage that&#39;s also available to the public.</div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<table border="0" cellpadding="5" cellspacing="0" id="entry_764729143"><tr aria-hidden="true"><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_764729143_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_764729143_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_764729143_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_764729143_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_764729143_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr role="radiogroup" aria-label="$2 for self-parking at a Cabbagetown business There isn&#39;t such an option now, but what if a neighborhood-scale development brings a large parking garage that&#39;s also available to the public. Select a value from a range of 1,Least, to 5,Most,."><td class="ss-scalerow ss-leftlabel"><div aria-hidden="true" class="aria-todo">Least</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.764729143" value="1" id="group_764729143_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.764729143" value="2" id="group_764729143_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.764729143" value="3" id="group_764729143_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.764729143" value="4" id="group_764729143_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.764729143" value="5" id="group_764729143_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
+<td class="ss-scalerow ss-rightlabel" aria-hidden="true">Most</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_615678230"><div class="ss-q-title">Add ride-sharing pickup zones 
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">Denote specific areas as late-night / weekend no parking zones, to be used only for for ridesharing drivers (Uber/Lyft/etc.) to drop off and pick up their passengers.</div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<table border="0" cellpadding="5" cellspacing="0" id="entry_1438064730"><tr aria-hidden="true"><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1438064730_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1438064730_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1438064730_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1438064730_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1438064730_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr role="radiogroup" aria-label="Add ride-sharing pickup zones  Denote specific areas as late-night / weekend no parking zones, to be used only for for ridesharing drivers (Uber/Lyft/etc.) to drop off and pick up their passengers. Select a value from a range of 1,Least, to 5,Most,."><td class="ss-scalerow ss-leftlabel"><div aria-hidden="true" class="aria-todo">Least</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1438064730" value="1" id="group_1438064730_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1438064730" value="2" id="group_1438064730_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1438064730" value="3" id="group_1438064730_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1438064730" value="4" id="group_1438064730_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1438064730" value="5" id="group_1438064730_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
+<td class="ss-scalerow ss-rightlabel" aria-hidden="true">Most</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-paragraph-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_987500544"><div class="ss-q-title">What specific comments, recommendations, or concerns do you have about parking in Cabbagetown?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+
+<div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div>
+<div class="error-message" id="1116674200_errorMessage"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-page-break"><div class="ss-form-entry"><span class="ss-printable-navigation" dir="ltr"></span>
+<h2 class="ss-page-title">Traffic</h2>
+<div class="ss-page-description ss-no-ignore-whitespace" dir="auto">The following statements are a sampling of recommendations to change the way Cabbagetown&#39;s streets interact with its neighboring streets. How supportive would you be of the following actions?
+
+ 1=Least
+ 2=Less
+ 3=Neutral
+ 4=More
+ 5=Most</div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_841067054"><div class="ss-q-title">Convert 2-way streets to 1-way to improve vehicle flow
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">Where our narrow streets can&#39;t accommodate parking and two directions of traffic, we could make streets like Carroll, Iswald, Estoria, or Tye one-way.  </div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<table border="0" cellpadding="5" cellspacing="0" id="entry_1367075340"><tr aria-hidden="true"><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1367075340_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1367075340_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1367075340_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1367075340_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1367075340_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr role="radiogroup" aria-label="Convert 2-way streets to 1-way to improve vehicle flow Where our narrow streets can&#39;t accommodate parking and two directions of traffic, we could make streets like Carroll, Iswald, Estoria, or Tye one-way.   Select a value from a range of 1,Least, to 5,Most,."><td class="ss-scalerow ss-leftlabel"><div aria-hidden="true" class="aria-todo">Least</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1367075340" value="1" id="group_1367075340_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1367075340" value="2" id="group_1367075340_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1367075340" value="3" id="group_1367075340_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1367075340" value="4" id="group_1367075340_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1367075340" value="5" id="group_1367075340_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
+<td class="ss-scalerow ss-rightlabel" aria-hidden="true">Most</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_529320762"><div class="ss-q-title">Convert one-way streets to two-way to slow traffic 
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">Generally increase accessibility at the expense of vehicle speed; typically also reduces parking</div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<table border="0" cellpadding="5" cellspacing="0" id="entry_2077903984"><tr aria-hidden="true"><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_2077903984_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_2077903984_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_2077903984_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_2077903984_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_2077903984_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr role="radiogroup" aria-label="Convert one-way streets to two-way to slow traffic  Generally increase accessibility at the expense of vehicle speed; typically also reduces parking Select a value from a range of 1,Least, to 5,Most,."><td class="ss-scalerow ss-leftlabel"><div aria-hidden="true" class="aria-todo">Least</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.2077903984" value="1" id="group_2077903984_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.2077903984" value="2" id="group_2077903984_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.2077903984" value="3" id="group_2077903984_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.2077903984" value="4" id="group_2077903984_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.2077903984" value="5" id="group_2077903984_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
+<td class="ss-scalerow ss-rightlabel" aria-hidden="true">Most</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1921202261"><div class="ss-q-title">Add stop signs to slow traffic
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">Whether to thoroughfares or side streets, this also asserts corner parking buffers and allows service vehicles extra space for turning.</div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<table border="0" cellpadding="5" cellspacing="0" id="entry_431298827"><tr aria-hidden="true"><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_431298827_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_431298827_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_431298827_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_431298827_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_431298827_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr role="radiogroup" aria-label="Add stop signs to slow traffic Whether to thoroughfares or side streets, this also asserts corner parking buffers and allows service vehicles extra space for turning. Select a value from a range of 1,Least, to 5,Most,."><td class="ss-scalerow ss-leftlabel"><div aria-hidden="true" class="aria-todo">Least</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.431298827" value="1" id="group_431298827_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.431298827" value="2" id="group_431298827_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.431298827" value="3" id="group_431298827_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.431298827" value="4" id="group_431298827_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.431298827" value="5" id="group_431298827_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
+<td class="ss-scalerow ss-rightlabel" aria-hidden="true">Most</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1050746872"><div class="ss-q-title">Stagger parking to opposite sides of the street to slow traffic
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">Move parking to sides of the street without driveways, allowing for maximum on-street parking space</div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<table border="0" cellpadding="5" cellspacing="0" id="entry_57210457"><tr aria-hidden="true"><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_57210457_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_57210457_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_57210457_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_57210457_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_57210457_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr role="radiogroup" aria-label="Stagger parking to opposite sides of the street to slow traffic Move parking to sides of the street without driveways, allowing for maximum on-street parking space Select a value from a range of 1,Least, to 5,Most,."><td class="ss-scalerow ss-leftlabel"><div aria-hidden="true" class="aria-todo">Least</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.57210457" value="1" id="group_57210457_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.57210457" value="2" id="group_57210457_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.57210457" value="3" id="group_57210457_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.57210457" value="4" id="group_57210457_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.57210457" value="5" id="group_57210457_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
+<td class="ss-scalerow ss-rightlabel" aria-hidden="true">Most</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1549393148"><div class="ss-q-title">Eliminate parking at/near bottlenecks of narrow streets to improve traffic flow
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">Bollards, benches, bicycle parking,  on the street near corners could prevent parking, but allow enough space for passing. More expensive ideas include curb bulb-outs at corners or large planters.</div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<table border="0" cellpadding="5" cellspacing="0" id="entry_1233624803"><tr aria-hidden="true"><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1233624803_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1233624803_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1233624803_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1233624803_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_1233624803_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr role="radiogroup" aria-label="Eliminate parking at/near bottlenecks of narrow streets to improve traffic flow Bollards, benches, bicycle parking,  on the street near corners could prevent parking, but allow enough space for passing. More expensive ideas include curb bulb-outs at corners or large planters. Select a value from a range of 1,Least, to 5,Most,."><td class="ss-scalerow ss-leftlabel"><div aria-hidden="true" class="aria-todo">Least</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1233624803" value="1" id="group_1233624803_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1233624803" value="2" id="group_1233624803_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1233624803" value="3" id="group_1233624803_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1233624803" value="4" id="group_1233624803_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.1233624803" value="5" id="group_1233624803_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
+<td class="ss-scalerow ss-rightlabel" aria-hidden="true">Most</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-scale"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_857502720"><div class="ss-q-title">Add traffic calming devices
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto">Speed humps, chicanes, and other objects help slow traffic, but can sometimes take away on-street parking.</div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Mark only one oval.</div>
+<table border="0" cellpadding="5" cellspacing="0" id="entry_775990337"><tr aria-hidden="true"><td class="ss-scalenumbers"></td>
+<td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_775990337_1">1</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_775990337_2">2</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_775990337_3">3</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_775990337_4">4</label></td> <td class="ss-scalenumbers"><label class="ss-scalenumber" for="group_775990337_5">5</label></td>
+<td class="ss-scalenumbers"></td></tr>
+<tr role="radiogroup" aria-label="Add traffic calming devices Speed humps, chicanes, and other objects help slow traffic, but can sometimes take away on-street parking. Select a value from a range of 1,Least, to 5,Most,."><td class="ss-scalerow ss-leftlabel"><div aria-hidden="true" class="aria-todo">Least</div></td>
+<td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.775990337" value="1" id="group_775990337_1" role="radio" class="ss-q-radio" aria-label="1"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.775990337" value="2" id="group_775990337_2" role="radio" class="ss-q-radio" aria-label="2"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.775990337" value="3" id="group_775990337_3" role="radio" class="ss-q-radio" aria-label="3"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.775990337" value="4" id="group_775990337_4" role="radio" class="ss-q-radio" aria-label="4"></div></td> <td class="ss-scalerow"><div class="ss-scalerow-fieldcell"><input type="radio" name="entry.775990337" value="5" id="group_775990337_5" role="radio" class="ss-q-radio" aria-label="5"></div></td>
+<td class="ss-scalerow ss-rightlabel" aria-hidden="true">Most</td></tr></table>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-paragraph-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1387633342"><div class="ss-q-title">What specific comments, recommendations, or concerns do you have about traffic in Cabbagetown?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+
+<div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div>
+<div class="error-message" id="492535935_errorMessage"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-page-break"><div class="ss-form-entry"><span class="ss-printable-navigation" dir="ltr"></span>
+<h2 class="ss-page-title">Additional Comments</h2>
+
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-paragraph-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1602085951"><div class="ss-q-title">Any other feedback, comments, or concerns?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+
+<div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div> <div class="ss-printable-text-line">&nbsp;</div>
+<div class="error-message" id="654042162_errorMessage"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-section-header"><div class="ss-form-entry">
+<h2 class="ss-section-title">Thank you!!</h2>
+<div class="ss-section-description ss-no-ignore-whitespace">We appreciate your time and response.  Please be on the lookout for a summary of responses and opportunities to be involved in an upcoming edition of the Cabbagetown Neighbor, as well as on the neighborhood Facebook and Nextdoor pages.
+
+If you would like to receive periodic updates from the Cabbagetown Transportation committee, please provide your email address below.</div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1397326669"><div class="ss-q-title">My Email address
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+
+<input type="text" name="entry.1397326669" value="" class="ss-q-short" id="entry_1397326669" dir="auto" aria-label="My Email address  " title="">
+<div class="error-message" id="1355475459_errorMessage"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-checkbox"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_526865271"><div class="ss-q-title">Check this box if you&#39;d like to get involved.
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+
+<div class="ss-printable-hint" aria-hidden="true">Check all that apply.</div>
+<ul class="ss-choices" role="group" aria-label="Check this box if you&#39;d like to get involved.  "><li class="ss-choice-item">
+<label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1872099410" value="I&#39;d like to participate!" id="group_1872099410_1" role="checkbox" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">I&#39;d like to participate!</span>
+</label></li></ul>
+<div class="error-message" id="526865271_errorMessage"></div>
+<div class="required-message">This is a required question</div></div></div></div>
+<input type="hidden" name="draftResponse" value="[,,&quot;0&quot;]
+">
+<input type="hidden" name="pageHistory" value="">
+
+
+
+
+
+<div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action jfk-button-disabled" disabled>
+<div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div></td>
+<td id="progress-container"><div id="progress-bar" class="jfk-progressBar-nonBlocking progress-bar-horizontal goog-inline-block"></div>
+<div id="progress-label" class="progress-label">20% completed</div></td></tr></tbody></table></div></ol></form></div>
+<div class="ss-footer"><div class="ss-attribution"></div>
+<div class="ss-legal"><div class="disclaimer-separator"></div>
+<div class="disclaimer" dir="ltr"><div class="powered-by-logo"><span class="powered-by-text">Powered by</span>
+<a href="https://www.google.com/forms/about/?utm_source=product&amp;utm_medium=forms_logo&amp;utm_campaign=forms"><div class="ss-logo-container"><img src="https://ssl.gstatic.com/docs/forms/forms_logo_2_small_dark_2x.png" height="21px" width="108px" alt="Google Forms"></div></a></div>
+<div class="ss-terms"><span class="disclaimer-msg">This content is neither created nor endorsed by Google.</span>
+<br>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSc2zftotT1UC0H4hM7XfJ_x3NjhnmMwIETvzmru7H2CqXUsOQ/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLSc2zftotT1UC0H4hM7XfJ_x3NjhnmMwIETvzmru7H2CqXUsOQ/viewform">Report Abuse</a>
+-
+<a href="http://www.google.com/accounts/TOS">Terms of Service</a>
+-
+<a href="http://www.google.com/google-d-s/terms.html">Additional Terms</a></div></div></div></div>
+
+<div id="docs-aria-speakable" class="docs-a11y-ariascreenreader-speakable docs-offscreen" aria-live="assertive" role="region" aria-atomic></div></div>
+<a class="ss-edit-link" href="https://docs.google.com/forms/d/1mFnCjL89jhn9iyUqPawo_CSsEFgg451N2cXplMOE3nY/edit">Edit this form</a>
+
+<script type='text/javascript' src='/static/forms/client/js/433590614-formviewer_prd.js'></script>
+<script type="text/javascript">H5F.setup(document.getElementById('ss-form'));
+          _initFormViewer(
+            "[20,,[]\n]\n");</script></div></body></html>
