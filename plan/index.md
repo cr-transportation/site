@@ -6,9 +6,9 @@ We've contracted with [UrbanTrans](http://urbantrans.com/) to engage with the co
 
 ## Survey Results
 
-- [Summary](/plan/2017_survey_summary.pdf)
+- [Summary](2017_survey_summary.pdf)
 
-- [Excel Data](/plan/2017_survey_results.xls)
+- [Excel Data](2017_survey_results.xls)
 
 # Older Studies
 
