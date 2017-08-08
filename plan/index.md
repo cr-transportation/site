@@ -1,8 +1,12 @@
 # 2017 Transportation Plan
 
-We are working together to produce a joint neighborhood transportation plan.
+The [2017 Transportation Plan is here](2017_CR_Transportation Plan_Final.pdf)
 
-We've contracted with [UrbanTrans](http://urbantrans.com/) to engage with the community for input and incorporate relevant details from plans such as the Atlanta transportation plan, the Beltline Master Plan (sub-area 4 overlay), Imagine Memorial and Renew Atlanta initiatives, [Livable Centers Initiative](http://www.atlantaregional.com/land-use/livable-centers-initiative).
+Big thanks to:
+  - [UrbanTrans](http://urbantrans.com/) for coordinating and assembling the plan
+  - Councilwoman Natalyn Archibong for supporting the initiative
+  - Everyone on the Transportation Committee for their hard work
+  - The hundreds of residents in Cabbagetown, Reynoldstown, and Taco Town that provided their input
 
 ## Survey Results
 
