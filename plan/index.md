@@ -1,6 +1,8 @@
 # 2017 Transportation Plan
 
-The [2017 Transportation Plan is here](2017_CR_Transportation Plan_Final.pdf)
+The 2017 Transportation Plan is here:
+
+[2017_CR_Transportation_Plan](2017_CR_Transportation Plan_Final.pdf)
 
 Big thanks to:
   - [UrbanTrans](http://urbantrans.com/) for coordinating and assembling the plan
