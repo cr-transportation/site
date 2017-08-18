@@ -1,5 +1,6 @@
 # Meeting agendas and minutes
 
+* [2017-08-17](2017-08-17-meeting)
 * [2017-06-15](2017-06-15-meeting)
 * [2017-04-20](2017-04-20-meeting)
 * [2017-02-27](2017-02-27-meeting)
