@@ -4,3 +4,4 @@ gems:
 
 collections:
   - meetings
+    output: true
