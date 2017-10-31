@@ -3,5 +3,5 @@ gems:
   - jekyll-redirect-from
 
 collections:
-  - meetings
+  meetings:
     output: true
