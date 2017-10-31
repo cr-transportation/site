@@ -11,6 +11,8 @@ We hold monthly meetings:
 
 **Where:** [Cabbagetown Community Center](http://www.cabbagetowninitiative.org/community-center/), 177 Estoria St SE, Atlanta, GA 30316
 
+{% assign recent = site.meetings.last %}
+<a href="{{ recent.url | relative_url }}">Read notes from the <strong>{{ recent.date | date: '%B %d, %Y' }}</strong> meeting.</a>
 
 ## Resources
 
@@ -20,4 +22,3 @@ We're working to put together resources for residents and visitors. Details to f
 ## Contact
 
 The committee can be reached at crtransportation@googlegroups.com (you must request membership to the mailing list first).
-
