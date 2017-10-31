@@ -1,3 +1,14 @@
 theme: jekyll-theme-minimal
 gems:
   - jekyll-redirect-from
+
+collections:
+  meetings:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: meetings
+    values:
+      layout: default
