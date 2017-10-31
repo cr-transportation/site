@@ -1,10 +1,10 @@
+---
+---
+
 # Meeting agendas and minutes
 
-* [2017-10-19](2017-10-19-meeting)
-* [2017-08-17](2017-08-17-meeting)
-* [2017-06-15](2017-06-15-meeting)
-* [2017-04-20](2017-04-20-meeting)
-* [2017-02-27](2017-02-27-meeting)
-* [2017-01-24](2017-01-24-meeting)
-* [2016-11-16](2016-11-16-meeting)
-* [2016-02-29](2016-02-29-meeting)
+<ul>
+  {% for meeting in site.meetings reversed %}
+  <li><a href="{{ meeting.url | relative_url }}">{{ meeting.date | date: '%B %d, %Y' }}</a></li>
+  {% endfor %}
+</ul>
