@@ -14,15 +14,15 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="/site"><img src="https://cloud.githubusercontent.com/assets/182/25828160/c1c3a6fe-341c-11e7-8fa6-89999fa350b7.png"></a>
+        <a href="{{ '/' | relative_url }}"><img src="https://cloud.githubusercontent.com/assets/182/25828160/c1c3a6fe-341c-11e7-8fa6-89999fa350b7.png"></a>
         <p></p>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <h3><a href="/site/meetings">Meeting Notes</a></h3>
-        <h3><a href="/site/plan">Transportation Plan</a></h3>
-        <h3><a href="/site/news">News</a></h3>
-        <h3><a href="/site/initiatives">Initiatives</a></h3>
+        <h3><a href="{{ '/meetings' | relative_url }}">Meeting Notes</a></h3>
+        <h3><a href="{{ '/plan' | relative_url }}">Transportation Plan</a></h3>
+        <h3><a href="{{ '/news' | relative_url }}">News</a></h3>
+        <h3><a href="{{ '/initiatives' | relative_url }}">Initiatives</a></h3>
 
         {% if site.show_downloads %}
           <ul>
