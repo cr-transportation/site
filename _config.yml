@@ -5,3 +5,10 @@ gems:
 collections:
   meetings:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: meetings
+    values:
+      layout: default
